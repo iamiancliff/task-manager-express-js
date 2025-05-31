@@ -1,4 +1,4 @@
-const moongose = require('mongoose');
+const moongoose = require('mongoose');
 
 const taskSchema = new moongose.Schema({
     title: { type: String, required: true },
